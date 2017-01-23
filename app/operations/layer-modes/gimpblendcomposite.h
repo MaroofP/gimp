@@ -831,7 +831,7 @@ blendfun_overlay (const float *dest,
             {
               gfloat comp;
 
-              if (src[c] < 0.5f)
+              if (dest[c] < 0.5f)
                 {
                   comp = 2.0f * dest[c] * src[c];
                 }
